@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Beauty Bliss</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beauty Bliss</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? We'd love to hear from you! Reach out to us using the form below:</p>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+                <span id="nameError" class="error"></span>
+                
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                <span id="emailError" class="error"></span>
+
+                <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                <span id="messageError" class="error"></span> <br>
+                
+                <button type="submit">Send Message</button>
+                <p id="successMessage" class="success" style="display:none;">Your message has been sent successfully!</p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Beauty Bliss. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
